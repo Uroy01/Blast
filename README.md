@@ -16,7 +16,7 @@ Python implementation of Basic Local Alignment Search Tool (BLAST) , which is th
 
 ### Construct library
 >Construct library for human genome. Break whole genome sequence into **11** bases length words overlappedly, then record the location of each word in liarary file. (**respectively for each chromosome**)
-<img src="C:/Users/Upasana Roy/Downloads/BLAST-bioinfor-tool-master/images/4" width=600  />
+<img src="./images/4.png" width=600  />
 
 #### Detail programing 
 
