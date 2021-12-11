@@ -10,7 +10,7 @@ Python implementation of Basic Local Alignment Search Tool (BLAST) , which is th
 
 ## Introduction to BLAST
 
-> In bioinformatics, BLAST for Basic Local Alignment Search Tool is an algorithm for comparing primary biological sequence information, such as the amino-acid sequences of different proteins or the nucleotides of DNA sequences. A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.
+> In bioinformatics, BLAST for Basic Local Alignment Search Tool is an algorithm for comparing primary biological sequence information, such as the amino-acid sequences of different proteins or the nucleotides of DNA sequences. A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold. It finds regions of similarity between biological sequences. Biopython provides Bio. Blast module to deal with NCBI BLAST operation
 
 ## BLAST implementation in python: For human genome
 
