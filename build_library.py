@@ -81,8 +81,8 @@ if __name__ == '__main__':
     chrom_seek_index = np.array([[int(line.split(":")[-2]),len(line)] for line in head_line])
     for i in range(1,24):
         chrom_seek_index[i,1]=chrom_seek_index[i,1]+chrom_seek_index[i-1,1]+chrom_seek_index[i-1,0]+ceil(chrom_seek_index[i-1,0]/60)
-    np.save('/home/jxiaoae/class/blast/GRCh37_chrom_seek_index.npy',chrom_seek_index)
-    np.save('/home/jxiaoae/class/blast/GRCh37_chr_names.npy',np.array(chr_names))
+    np.save('/home/upasana/class/blast/GRCh37_chrom_seek_index.npy',chrom_seek_index)
+    np.save('/home/upasana/class/blast/GRCh37_chr_names.npy',np.array(chr_names))
     print(chr_names)
     # reset multiprocessing num according to your server
     with Pool(10) as p:
