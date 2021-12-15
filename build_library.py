@@ -48,10 +48,10 @@ def BuildLibrary(chr_name):
     
     seeks = GenSeek(library,word_len)
     lib_seq = ''.join(library)
-    with open('/home/jxiaoae/class/blast/chromosome_{}_library.txt'.format(chr_name), 'w') as f:
+    with open('/home/upasana/class/blast/chromosome_{}_library.txt'.format(chr_name), 'w') as f:
         f.write(lib_seq)
         f.close()
-    np.save('/home/jxiaoae/class/blast/chromosome_{}_library_seeks.npy'.format(chr_name),seeks)
+    np.save('/home/upasana/class/blast/chromosome_{}_library_seeks.npy'.format(chr_name),seeks)
     
 
 if __name__ == '__main__':
