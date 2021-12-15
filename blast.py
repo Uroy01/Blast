@@ -183,8 +183,8 @@ def Blast(query_seq):
     return None
 
 if __name__ == "__main__":
-    chr_names = np.load('/home/jxiaoae/class/blast/GRCh37_chr_names.npy')
-    chrom_seek_index = np.load('/home/jxiaoae/class/blast/GRCh37_chrom_seek_index.npy')
+    chr_names = np.load('/home/upasana/class/blast/GRCh37_chr_names.npy')
+    chrom_seek_index = np.load('/home/upasana/class/blast/GRCh37_chrom_seek_index.npy')
     hg19 = open("/home/share/GRCh37/human_g1k_v37.fasta")
     query_sequence = 'GTATCGGAACTTCCAACTTGTAGGCAAAATAGATATGCTTCATATTCTTAAAAACCACAAGAAA'
     Blast(query_sequence)
