@@ -23,7 +23,7 @@ Python implementation of Basic Local Alignment Search Tool (BLAST) , which is th
 ```python
 python build_library.py 
 # It takes several hours when multiprocessing was applicable
-# reset GRCh37 path and output library file path
+
 ```
 
 ### alignment algorithms
